@@ -1,1 +1,1 @@
-# Ethan's Notes
+Ethan Erickson
