@@ -6,8 +6,8 @@ import "Database.js" as JS
 
 ApplicationWindow {
     id: main
-    width: 1200
-    height: 800
+    width: 1600
+    height: 1200
     visible: true
     title: "Main Screen"
 
@@ -44,19 +44,40 @@ ApplicationWindow {
         GridView {
             id: listView
             Layout.fillWidth: true
-            height: 300
+            height: 600
+            cellWidth: 300
+            cellHeight:250
+
             //Layout.fillHeight: true
             model: Model {}
+            Page {
+                id: recipePage
+                width: parent.width // Make the page take the full width of the window
+                height: parent.height // And the full height
+                visible: false // Initially invisible
+
+                // Define the content of your recipePage here
+                Text {
+                    anchors.centerIn: parent
+                    text: "Recipe Details Here"
+                }
+            }
             delegate: Delegate {
+                id: del
+
+
                 width: listView.width
-                onClicked: ()=> listView.currentIndex = index
+                onClicked: ()=> {
+                           listView.currentIndex = index
+                           recipePage.visible = true
+                           }
             }
 
             header: Component {
                 RowLayout {
                     width: GridView.view.width
                     Repeater {
-                        model: [qsTr("Date"), qsTr("Title"), qsTr("Description")]
+                        model: [qsTr("Recipes"), qsTr("Reviews"), qsTr("And Titles")]
                         delegate: Label {
                             id: headerTitleDelegate
 
