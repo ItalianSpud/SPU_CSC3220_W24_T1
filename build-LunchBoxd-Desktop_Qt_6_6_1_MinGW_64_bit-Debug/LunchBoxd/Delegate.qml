@@ -22,12 +22,24 @@ Item {
 
     width: ListView.view.width
     //implicitHeight: rDate.implicitHeight * 1.5
+    property alias recipePage: recipepage
+    Page {
+        id: recipepage
+        width: 1600
+        height: 1200
+        visible: false
+        Text {
+            text: "test"
+        }
+    }
 
     Rectangle {
         id: baseRec
         width: 300
         height: 250
         color: "tomato"
+        border.color: "black"
+        border.width: 5
 
         MouseArea {
             anchors.fill: parent
@@ -39,7 +51,7 @@ Item {
 
             Text {
                 id: name
-                anchors.top: typeImage.bottom
+                anchors.top: parent.top
                 anchors.topMargin: 5
                 anchors.horizontalCenter: parent.horizontalCenter
                 font.pointSize: 30
