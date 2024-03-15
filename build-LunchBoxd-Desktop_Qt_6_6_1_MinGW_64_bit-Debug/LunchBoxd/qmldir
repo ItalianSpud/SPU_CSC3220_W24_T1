@@ -1,0 +1,10 @@
+module LunchBoxd
+typeinfo appLunchBoxd.qmltypes
+prefer :/LunchBoxd/
+Main 1.0 Main.qml
+RecipeCard 1.0 RecipeCard.qml
+Database 1.0 Database.js
+Model 1.0 Model.qml
+InputData 1.0 InputData.qml
+Delegate 1.0 Delegate.qml
+

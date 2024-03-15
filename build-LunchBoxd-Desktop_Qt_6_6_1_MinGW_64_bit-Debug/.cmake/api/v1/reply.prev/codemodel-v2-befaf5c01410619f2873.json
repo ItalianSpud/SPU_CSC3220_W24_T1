@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8e512cd73fda618ecebb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LunchBoxd",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-50ea952e4556c4cf6413.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f81945463f5a6bdbe58f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-7909c3a0d918f01b7e6e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6772e29ce2e9aa83a0c3.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd-Debug-b8a97bfc759bfded6c68.json",
+					"name" : "appLunchBoxd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_autogen-Debug-95e0932df2bdee3d1501.json",
+					"name" : "appLunchBoxd_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_autogen_timestamp_deps-Debug-375ec0093ad89b7f6ce3.json",
+					"name" : "appLunchBoxd_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_qmlimportscan-Debug-140e835a40742256ed0a.json",
+					"name" : "appLunchBoxd_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_qmllint-Debug-babac795aa37c96fc63d.json",
+					"name" : "appLunchBoxd_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_qmllint_json-Debug-9ec1f07e2831158828a6.json",
+					"name" : "appLunchBoxd_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_qmllint_module-Debug-9d1dc854bd71c8d1d3fb.json",
+					"name" : "appLunchBoxd_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_qmltyperegistration-Debug-4a015295a20565326211.json",
+					"name" : "appLunchBoxd_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLunchBoxd_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLunchBoxd_tooling-Debug-15c5af603dad70c605b6.json",
+					"name" : "appLunchBoxd_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/coder/development/SPU_CSC3220_W24_T1/build-LunchBoxd-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
