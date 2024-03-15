@@ -43,9 +43,6 @@ function dbReadRecipes() {
         let reviews = tx.executeSql(
                 'SELECT creationTime,taste,cost,health FROM Reviews order by rowid desc')
         for (let i = 0; i < results.rows.length; i++) {
-            let recipeIndex = results.rows.item(i).rowid
-            console.log(i + ": " + reviews.rows.item(i).creationTime)
-
             listModel.append({
                 id: results.rows.item(i).rowid,
                 date: results.rows.item(i).creationDate,
@@ -59,12 +56,6 @@ function dbReadRecipes() {
                 cost: reviews.rows.item(i).cost,
                 health: reviews.rows.item(i).health
             })
-            /*let recipe = {
-                "id": results.rows.item(i).rowid,
-                "creationDate": results.rows.item(i).creationDate,
-                "title": results.rows.item(i).title,
-                "description": results.rows.item(i).description
-            }*/
             console.log(results.rows.item(i).description)
         }
     })

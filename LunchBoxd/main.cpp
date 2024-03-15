@@ -15,9 +15,10 @@ int main(int argc, char *argv[])
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.load(url);
-    QString filePath = QStandardPaths::writableLocation(QStandardPaths::StandardLocation::AppLocalDataLocation);
-    qDebug() << filePath;
-    engine.setOfflineStoragePath(QString(filePath + "/OfflineStorage"));
+    //QString filePath = QStandardPaths::writableLocation(QStandardPaths::StandardLocation::AppLocalDataLocation);
+    //qDebug() << filePath;
+    //engine.setOfflineStoragePath(QString(filePath + "/OfflineStorage"));
+    engine.setOfflineStoragePath(QString("./OfflineStorage"));
     qDebug() << engine.offlineStoragePath();
 
     return app.exec();
