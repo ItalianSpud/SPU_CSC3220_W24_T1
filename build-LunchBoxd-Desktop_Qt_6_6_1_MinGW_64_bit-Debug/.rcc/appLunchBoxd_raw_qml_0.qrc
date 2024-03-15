@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/LunchBoxd/">
+    <file alias="Main.qml">C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd/Main.qml</file>
+    <file alias="RecipeCard.qml">C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd/RecipeCard.qml</file>
+    <file alias="Database.js">C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd/Database.js</file>
+    <file alias="Model.qml">C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd/Model.qml</file>
+    <file alias="InputData.qml">C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd/InputData.qml</file>
+    <file alias="Delegate.qml">C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd/Delegate.qml</file>
+  </qresource>
+</RCC>
+

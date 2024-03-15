@@ -18,6 +18,10 @@ qt_add_qml_module(appLunchBoxd
     QML_FILES Main.qml
     SOURCES
     QML_FILES RecipeCard.qml
+    QML_FILES Database.js
+    QML_FILES Model.qml
+    QML_FILES InputData.qml
+    QML_FILES Delegate.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

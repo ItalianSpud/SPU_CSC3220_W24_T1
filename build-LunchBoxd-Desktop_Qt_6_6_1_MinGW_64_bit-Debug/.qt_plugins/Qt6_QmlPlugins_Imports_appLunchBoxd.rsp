@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/coder/development/SPU_CSC3220_W24_T1/LunchBoxd
+-cmake-output
+-output-file
+C:/Users/coder/development/SPU_CSC3220_W24_T1/build-LunchBoxd-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appLunchBoxd.cmake
+-importPath
+C:/Users/coder/development/SPU_CSC3220_W24_T1/build-LunchBoxd-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/LunchBoxd
+-importPath
+C:/Users/coder/development/SPU_CSC3220_W24_T1/build-LunchBoxd-Desktop_Qt_6_6_1_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.6.1/mingw_64/./qml
+-qrcFiles
+C:/Users/coder/development/SPU_CSC3220_W24_T1/build-LunchBoxd-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmake_LunchBoxd.qrc
+C:/Users/coder/development/SPU_CSC3220_W24_T1/build-LunchBoxd-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/appLunchBoxd_raw_qml_0.qrc
