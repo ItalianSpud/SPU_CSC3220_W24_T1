@@ -28,6 +28,8 @@ Item {
         width: 300
         height: 250
         color: "tomato"
+        border.color: "black"
+        border.width: 5
 
         MouseArea {
             anchors.fill: parent
@@ -39,7 +41,7 @@ Item {
 
             Text {
                 id: name
-                anchors.top: typeImage.bottom
+                anchors.top: parent.top
                 anchors.topMargin: 5
                 anchors.horizontalCenter: parent.horizontalCenter
                 font.pointSize: 30
